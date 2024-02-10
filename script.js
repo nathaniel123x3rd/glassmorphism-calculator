@@ -31,6 +31,5 @@ const sec = document.querySelector('.container');
 const toggle = document.querySelector('.toggle');
 
 toggle.onclick = function() {
-  sec.classList.toggle('dark');
-  sec.classList.toggle('container');
+  sec.classList.toggle('dark container');
 }
