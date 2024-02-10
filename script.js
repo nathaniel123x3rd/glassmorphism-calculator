@@ -27,7 +27,10 @@ calculatorButtons.forEach((button) => {
   });
 });
 
+const sec = document.querySelector('.container');
 const toggle = document.querySelector('.toggle');
-toggle.onclick = function(){
-    sec.classList.toggle('dark');
+
+toggle.onclick = function() {
+  sec.classList.toggle('dark');
+  sec.classList.toggle('container');
 }
